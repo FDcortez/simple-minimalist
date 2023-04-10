@@ -1,0 +1,68 @@
+.dropd {
+    
+    display: list-item;
+  }
+  
+  .btn {
+    border-top-left-radius: 5%;
+    background-color: lightgray;
+  }
+/* button */
+  .langs {
+    display: none;
+    position: fixed;
+    background-color: gray;
+    min-width: 40px;
+    z-index: 1;
+  }
+  
+  .langs a {
+    color: black;
+    padding: 6px 8px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .langs a.active{
+    background: darkred;
+  }
+
+.langs a:hover {background-color: rgba(139, 0, 0, 0.336);}
+
+.dropd:hover .langs {
+  display: block;
+}
+
+.btn:hover, .dropd:hover .btn {
+  background-color: #4a4a4a;
+}
+
+      /*Content*/
+
+h1 {
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+
+.navi {
+  position: fixed;
+  left: 2.7%;
+}
+/*Footer*/
+
+  footer {
+    position: fixed;
+    left: 5%;
+    bottom: 0;
+    width: 90%;
+    background-color: darkgray;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0.15rem;
+    transition: all 0.3s ease;
+  }
